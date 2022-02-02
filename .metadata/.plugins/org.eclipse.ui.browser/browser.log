@@ -1,0 +1,7 @@
+
+Feb 02, 2022 21:08:31.77 NEW SESSION
+Feb 02, 2022 21:08:31.77 [18544:15480:0202/210831.768:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Feb 02, 2022 21:08:31.77 [18544:15480:0202/210831.768:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Feb 02, 2022 21:08:31.77 [18544:15480:0202/210831.768:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Feb 02, 2022 21:08:31.77 [18544:15480:0202/210831.769:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Feb 02, 2022 21:08:31.77 [18544:10296:0202/210831.769:ERROR:device_event_log_impl.cc(214)] [21:08:31.770] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
