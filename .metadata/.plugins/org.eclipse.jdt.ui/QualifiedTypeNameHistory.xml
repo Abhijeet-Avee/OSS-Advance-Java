@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="com.service.Calculator"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
@@ -11,4 +10,5 @@
 <fullyQualifiedTypeName name="java.util.Optional"/>
 <fullyQualifiedTypeName name="com.model.exceptions.EmployeeNotFoundException"/>
 <fullyQualifiedTypeName name="com.model.persistence.Employee"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 </qualifiedTypeNameHistroy>

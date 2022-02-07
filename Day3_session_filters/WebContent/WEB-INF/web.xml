@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>app07</display-name>
+  <servlet>
+    <description></description>
+    <display-name>S1</display-name>
+    <servlet-name>S1</servlet-name>
+    <servlet-class>com.session.S1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>S1</servlet-name>
+    <url-pattern>/S1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>S2</display-name>
+    <servlet-name>S2</servlet-name>
+    <servlet-class>com.session.S2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>S2</servlet-name>
+    <url-pattern>/S2</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>1</session-timeout>
+  </session-config>
+  <servlet>
+    <servlet-name>S3</servlet-name>
+    <servlet-class>com.session.S3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>S3</servlet-name>
+    <url-pattern>/S3.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>S4</servlet-name>
+    <servlet-class>com.session.S4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>S4</servlet-name>
+    <url-pattern>/S4.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  <filter>
+    <filter-name>F2</filter-name>
+    <filter-class>com.filters.F2</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>F2</filter-name>
+    <url-pattern>*.do</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+    <dispatcher>INCLUDE</dispatcher>
+    <dispatcher>ERROR</dispatcher>
+  </filter-mapping>
+  
+  <filter>
+    <display-name>F1</display-name>
+    <filter-name>F1</filter-name>
+    <filter-class>com.filters.F1</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>F1</filter-name>
+    <url-pattern>*.do</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+    <dispatcher>INCLUDE</dispatcher>
+    <dispatcher>ERROR</dispatcher>
+  </filter-mapping>
+ 
+ 
+ <servlet>
+    <servlet-name>S5</servlet-name>
+    <servlet-class>com.session.S5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>S5</servlet-name>
+    <url-pattern>/S5.foo</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+    <display-name>F4</display-name>
+    <filter-name>F4</filter-name>
+    <filter-class>com.filters.F4</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>F4</filter-name>
+    <url-pattern>*.foo</url-pattern>
+     <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+  
+  
+</web-app>
