@@ -26,8 +26,8 @@ public class F2 implements Filter {
 		System.out.println(req.getRequestURI());
 		System.out.println(req.getRequestURL().toString());
 		
-		chain.doFilter(request, response);
 		
+		chain.doFilter(request, response);
 	}
 
 	public void destroy() {

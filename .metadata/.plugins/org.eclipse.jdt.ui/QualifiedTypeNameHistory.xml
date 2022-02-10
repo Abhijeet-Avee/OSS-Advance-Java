@@ -2,13 +2,30 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="com.service.Calculator"/>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="com.model.persistence.EmployeeDao"/>
 <fullyQualifiedTypeName name="com.model.persistence.EmployeeDaoImpl"/>
 <fullyQualifiedTypeName name="com.model.exceptions.DataAccessException"/>
-<fullyQualifiedTypeName name="java.util.Optional"/>
-<fullyQualifiedTypeName name="com.model.exceptions.EmployeeNotFoundException"/>
-<fullyQualifiedTypeName name="com.model.persistence.Employee"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.model.service.EmployeeService"/>
+<fullyQualifiedTypeName name="com.model.service.EmployeeServiceImpl"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
+<fullyQualifiedTypeName name="com.model.persistence.Employee"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.model.exceptions.EmployeeNotFoundException"/>
+<fullyQualifiedTypeName name="com.model.persistence.ConnectionFactory"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.model.persistence.user.UserDao"/>
+<fullyQualifiedTypeName name="com.model.persistence.user.UserDaoImpl"/>
+<fullyQualifiedTypeName name="com.model.service.user.UserServiceImpl"/>
+<fullyQualifiedTypeName name="com.model.service.user.UserService"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="org.apache.catalina.User"/>
+<fullyQualifiedTypeName name="com.model.exceptions.UserNotFoundException"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.model.persistence.user.User"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 </qualifiedTypeNameHistroy>
