@@ -11,12 +11,9 @@
 <fullyQualifiedTypeName name="com.model.service.EmployeeServiceImpl"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
 <fullyQualifiedTypeName name="com.model.persistence.Employee"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="com.model.exceptions.EmployeeNotFoundException"/>
 <fullyQualifiedTypeName name="com.model.persistence.ConnectionFactory"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.model.persistence.user.UserDao"/>
 <fullyQualifiedTypeName name="com.model.persistence.user.UserDaoImpl"/>
 <fullyQualifiedTypeName name="com.model.service.user.UserServiceImpl"/>
@@ -28,4 +25,20 @@
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="com.model.persistence.user.User"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.model.persistence.factory.ConnectionFactory"/>
+<fullyQualifiedTypeName name="com.model.persistence.trainee.TraineeDao"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.model.service.trainee.TraineeService"/>
+<fullyQualifiedTypeName name="com.model.service.trainee.TraineeServiceImpl"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.model.persistence.trainee.Trainee"/>
+<fullyQualifiedTypeName name="com.model.exceptions.TraineeNotFoundException"/>
+<fullyQualifiedTypeName name="com.model.persistence.trainee.BranchEnum"/>
 </qualifiedTypeNameHistroy>
